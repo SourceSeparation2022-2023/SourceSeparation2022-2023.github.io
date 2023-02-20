@@ -1,6 +1,6 @@
 ---
 title: ""
-layout: splash
+layout: single
 permalink: /
 author_profile: true
 classes: wide
