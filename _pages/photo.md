@@ -13,6 +13,6 @@ sidebar:
 ---
 
 <html>  
-<img src="/_images/P1200908.JPG"
+<img src="/images/P1200908.JPG"
      alt="Auditorium"/>
 </html>
