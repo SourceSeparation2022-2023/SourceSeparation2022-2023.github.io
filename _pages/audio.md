@@ -13,3 +13,14 @@ toc_label: "Table of Contents"
 sidebar:
   nav: "main"
 ---
+
+
+**Scales**
+
+> Violin 1
+
+<html>
+<audio controls>
+  <source src="/_audio/Violin1 Scale Violin1.wav">
+</audio>
+</html>

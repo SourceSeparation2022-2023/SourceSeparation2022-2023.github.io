@@ -13,3 +13,9 @@ toc_label: "Table of Contents"
 sidebar:
   nav: "main"
 ---
+
+<html>  
+<img src="G_NF_n_basis_32_n_fft_4096.pdf"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+</html>
