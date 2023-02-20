@@ -16,3 +16,13 @@ Main changes:
     screenshot.png
 - Gemfile
 - config.yml
+
+To add a new page, create a file these info:
+    title: "Audio files"
+    layout: single
+    permalink: /path
+    author_profile: false
+and update the navigation.yml accordingly:
+    parent_page:
+  - title: "Your page Title"
+    url: https://yourname.github.io/path
