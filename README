@@ -29,3 +29,5 @@ and update the navigation.yml accordingly:
 
 
 No underscore for folder names
+
+To modify the homepage content, either modify index.html or replace it by another file.
