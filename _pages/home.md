@@ -8,4 +8,8 @@ classes: wide
 
 ## Introduction
 
-This page is a presentation of the project Sound Recording and Source Separation. This was made in an academic context for the ATIAM master.
+This project is part of the ATIAM master. 
+
+## Authors
+
+Pierre Chouteau, Henri Desvallées, Louis Lalay, Mathilde Lefebvre, Ivan Meresman-Higgs, Théo Nguyen

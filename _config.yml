@@ -21,9 +21,9 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : ""
 description              : "This site hosts complementary informations related to the ATIAM project 'Sound Recording and Source Separation'. It mainly contain audios."
-url                      : "https://louislalay.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://sourceseparation2022-2023.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "LouisLalay/LouisLalay.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "sourceseparation2022-2023/sourceseparation2022-2023.github.io/" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Louis Lalay"
+  name             : "ATIAM Students"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Student in ATIAM"
+  bio              : "6 students from ATIAM masters degree"
   location         : "Paris"
   email            :
   links:
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/LouisLalay/"
+      url: "https://github.com/SourceSeparation2022-2023"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
