@@ -1,0 +1,18 @@
+# Minimal Mistakes theme
+
+Forked from https://github.com/mmistakes/minimal-mistakes.
+
+Main changes:
+- Deleted some files and folders
+    .editorconfig
+    .gitattributes
+    .github
+    /docs
+    /test
+    CHANGELOG.md
+    minimal-mistakes-jekyll.gemspec
+    README.md
+    screenshot-layouts.png
+    screenshot.png
+- Gemfile
+- config.yml
