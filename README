@@ -26,3 +26,6 @@ and update the navigation.yml accordingly:
     parent_page:
   - title: "Your page Title"
     url: https://yourname.github.io/path
+
+
+No underscore for folder names
