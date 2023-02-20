@@ -19,6 +19,6 @@ sidebar:
 
 <html>
 <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.mp3">
+  <source src="/audio/Violin1ScaleViolin1.wav">
 </audio>
 </html>
