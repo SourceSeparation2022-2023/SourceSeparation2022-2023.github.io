@@ -8,8 +8,6 @@ header:
   overlay_filter: "0.6"
 #   overlay_image: /images/particles.jpg
 excerpt: "Audio for the recording and separated sources."
-toc: true
-toc_label: "Table of Contents"
 sidebar:
   nav: "main"
 ---
@@ -21,6 +19,6 @@ sidebar:
 
 <html>
 <audio controls>
-  <source src="/_audio/Violin1 Scale Violin1.mp3">
+  <source src="/_audio/Violin1ScaleViolin1.mp3">
 </audio>
 </html>

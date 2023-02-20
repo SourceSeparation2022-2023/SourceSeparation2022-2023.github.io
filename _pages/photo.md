@@ -8,14 +8,11 @@ header:
   overlay_filter: "0.6"
 #   overlay_image: /images/particles.jpg
 excerpt: "Photos of the recording day"
-toc: true
-toc_label: "Table of Contents"
 sidebar:
   nav: "main"
 ---
 
 <html>  
 <img src="/_images/P1200908.JPG"
-     alt="Auditorium"
-     style="float: left; margin-right: 10px;" />
+     alt="Auditorium"/>
 </html>
