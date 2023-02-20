@@ -15,7 +15,7 @@ sidebar:
 ---
 
 <html>  
-<img src="G_NF_n_basis_32_n_fft_4096.pdf"
+<img src="P1200908.JPG"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 </html>
