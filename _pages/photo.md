@@ -15,7 +15,7 @@ sidebar:
 ---
 
 <html>  
-<img src="P1200908.JPG"
-     alt="Markdown Monster icon"
+<img src="/_images/P1200908.JPG"
+     alt="Auditorium"
      style="float: left; margin-right: 10px;" />
 </html>
