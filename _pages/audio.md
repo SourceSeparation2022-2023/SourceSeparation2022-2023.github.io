@@ -8,6 +8,9 @@ header:
   overlay_filter: "0.6"
 #   overlay_image: /images/particles.jpg
 excerpt: "The recording was carried out in Aubervilliers with musicians from the 'Conservatoire à rayonnement régional'"
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 
 # Perdrixfull version
@@ -37,197 +40,565 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
 - 3 coupled microphones to capture the global scene (named Left, Center, Right)
 
 ## Separation on full mix without prior information
+
+<html>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <center>
+    <strong> Original </strong>
+    </center>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <center>
+    <strong> Separated </strong>
+    </center>
+  </div>
+</div>
+
+</html>
+
 > Violin 1
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Violin 2
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Flute
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Clarinet
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Cello
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Left
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Center
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Right
 
 <html>
-<audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
-</html>
 
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
+  <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+</div>
+
+</html>
 
 ## Separation on raw audio without prior information
+<html>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <center>
+    <strong> Original </strong>
+    </center>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <center>
+    <strong> Separated </strong>
+    </center>
+  </div>
+</div>
+
+</html>
+
 > Violin 1
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Violin 2
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Flute
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Clarinet
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Cello
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Left
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Center
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Right
 
 <html>
-<audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
-</html>
 
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
+  <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+</div>
+
+</html>
 ## Separation on raw audio with prior information
+<html>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <center>
+    <strong> Original </strong>
+    </center>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <center>
+    <strong> Separated </strong>
+    </center>
+  </div>
+</div>
+
+</html>
+
 > Violin 1
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Violin 2
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Flute
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Clarinet
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Cello
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Left
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Center
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
 
 > Right
 
 <html>
-<audio controls>
+
+<div id="container">
+  <div id="left-column">
+    <!-- content for the left column goes here -->
+    <audio controls>
+      <source src="/audio/Violin1ScaleViolin1.wav">
+    </audio>
+  </div>
+  <div id="right-column">
+    <!-- content for the right column goes here -->
+    <audio controls>
   <source src="/audio/Violin1ScaleViolin1.wav">
-</audio>
+    </audio>
+  </div>
+</div>
+
 </html>
