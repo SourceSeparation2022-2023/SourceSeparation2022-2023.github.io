@@ -1,8 +1,8 @@
 # main links
 main:
   - title: "Photos"
-    url: https://sourceseparation2022-2023.github.io/photo
+    url: /photo
   - title: "Audio files"
-    url: https://sourceseparation2022-2023.github.io/audio
+    url: /audio
   - title: "Subjective test"
-    url: https://sourceseparation2022-2023.github.io/mushra
+    url: /mushra
