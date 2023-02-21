@@ -8,11 +8,54 @@ header:
   overlay_filter: "0.6"
 #   overlay_image: /images/particles.jpg
 excerpt: "Photos of the recording day"
-sidebar:
-  nav: "main"
 ---
 
 <html>  
+<figure>
 <img src="/images/P1200908.JPG"
      alt="Auditorium"/>
+<figcaption>Auditorium</figcaption>
+</figure>
+
+<figure>
+<img src="/images/P1200908.JPG"
+     alt="Auditorium"/>
+<figcaption>Auditorium</figcaption>
+</figure>
+
+<figure>
+<img src="/images/P1200908.JPG"
+     alt="Auditorium"/>
+<figcaption>Auditorium</figcaption>
+</figure>
+
+<figure>
+<img src="/images/P1200908.JPG"
+     alt="Auditorium"/>
+<figcaption>Auditorium</figcaption>
+</figure>
+
+<figure>
+<img src="/images/P1200908.JPG"
+     alt="Auditorium"/>
+<figcaption>Auditorium</figcaption>
+</figure>
+
+<figure>
+<img src="/images/P1200908.JPG"
+     alt="Auditorium"/>
+<figcaption>Auditorium</figcaption>
+</figure>
+
+<figure>
+<img src="/images/P1200908.JPG"
+     alt="Auditorium"/>
+<figcaption>Auditorium</figcaption>
+</figure>
+
+<figure>
+<img src="/images/P1200908.JPG"
+     alt="Auditorium"/>
+<figcaption>Auditorium</figcaption>
+</figure>
 </html>
