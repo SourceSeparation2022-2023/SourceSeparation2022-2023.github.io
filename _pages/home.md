@@ -15,6 +15,14 @@ excerpt: "Abstract"
 
 This project is part of the [ATIAM](https://www.atiam.ircam.fr/en/) master. 
 
+<html>  
+<figure>
+<img src="/images/G_NF_n_basis_32_n_fft_4096.pdf"
+     alt="Auditorium"/>
+<figcaption>Auditorium</figcaption>
+</figure>
+</html>
+
 ## Abstract
 
 Music Source Separation (MSS) is the process of separating individual audio signals from a mixed recording containing multiple sound sources, such as different musical instruments, vocals and ambient noise, and its various applications include remixing, transcription and music recommendation. 
@@ -23,11 +31,6 @@ We propose the use of Non-Negative Matrix Factorization (NMF) separation algorit
 In our multi-channel setting, we aim to implement efficient, conditioned versions of this algorithm to be applied to musical recordings performed in a known and controlled context, to investigate methods of informing this algorithm for improved performance.
 To this end, we conducted a professional-level recording of a chamber music quintet.
 We implemented a set of standard NMF algorithms that can be conditioned on temporal and spectral information from the instruments that were specifically registered at the time of the recording for this purpose.
-    
-We have compared our results with other SOTA algorithms,
-{\color{red}here say something about the objective results},
-and performed subjective evaluation according to the MUSHRA protocol, {\color{red}here say something about the subjective results}. 
-Our approach confirms the versatility of the FastMNMF algorithm and the possibility of extending and making these algorithms more versatile. %Our work provides  
     
 
 *Keywords*: Music, Source separation, Non-Negative Matrix Factorization, Live Recording, Acoustics
