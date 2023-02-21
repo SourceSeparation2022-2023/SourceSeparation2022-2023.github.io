@@ -13,15 +13,7 @@ excerpt: "Abstract"
 
 ## Introduction
 
-This project is part of the [ATIAM](https://www.atiam.ircam.fr/en/) master. 
-
-<html>  
-<figure>
-<img src="/images/G_NF_n_basis_32_n_fft_4096.pdf"
-     alt="Auditorium"/>
-<figcaption>Auditorium</figcaption>
-</figure>
-</html>
+This project is part of the [ATIAM](https://www.atiam.ircam.fr/en/) master.
 
 ## Abstract
 
