@@ -4,11 +4,5 @@ main:
     url: https://sourceseparation2022-2023.github.io/photo
   - title: "Audio files"
     url: https://sourceseparation2022-2023.github.io/audio
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Subjective test"
+    url: https://sourceseparation2022-2023.github.io/mushra
