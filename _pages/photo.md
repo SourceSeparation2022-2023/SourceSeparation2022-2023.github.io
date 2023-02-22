@@ -11,6 +11,7 @@ excerpt: "Photos of the recording day"
 ---
 
 <html>  
+<span style="color:red"><b>Warning: Due to authorization issues, we are not able yet to provide all the images. </b> </span>.
 <figure>
 <img src="/images/P1200908.JPG"
      alt="Auditorium"/>
