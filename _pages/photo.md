@@ -1,6 +1,6 @@
 ---
 title: "Photos"
-layout: single
+layout: collection
 permalink: /photo
 author_profile: false
 header:
@@ -11,7 +11,10 @@ excerpt: "Photos of the recording day"
 ---
 
 <html>  
-<span style="color:red"><b>Warning: Due to authorization issues, we are not able yet to provide all the images. </b> </span>.
+<span style="color:red"><b>Warning: Due to authorization issues, we are not able yet to provide all the images. </b> </span>
+
+<div id="container">
+  <div id="left-column">
 <figure>
 <img src="/images/P1200908.JPG"
      alt="Auditorium"/>
@@ -36,11 +39,8 @@ excerpt: "Photos of the recording day"
 <figcaption>Auditorium</figcaption>
 </figure>
 
-<figure>
-<img src="/images/P1200908.JPG"
-     alt="Auditorium"/>
-<figcaption>Auditorium</figcaption>
-</figure>
+</div>
+<div id="right-column">
 
 <figure>
 <img src="/images/P1200908.JPG"
@@ -59,4 +59,12 @@ excerpt: "Photos of the recording day"
      alt="Auditorium"/>
 <figcaption>Auditorium</figcaption>
 </figure>
+
+<figure>
+<img src="/images/P1200908.JPG"
+     alt="Auditorium"/>
+<figcaption>Auditorium</figcaption>
+</figure>
+</div>
+</div>
 </html>

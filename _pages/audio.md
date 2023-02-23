@@ -11,10 +11,11 @@ excerpt: "The recording was carried out in Aubervilliers with musicians from the
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+toc_sticky: true
 ---
 <html>
 
-<span style="color:red"><b>Warning: Due to authorization issues, we are not able to provide all the audio files yet. </b> </span>.
+<span style="color:red"><b>Warning: Due to authorization issues, we are not able to provide all the audio files yet. </b> </span>
 
 </html>
 # Perdrixfull version
