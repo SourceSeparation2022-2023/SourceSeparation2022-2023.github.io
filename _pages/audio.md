@@ -15,7 +15,7 @@ toc_sticky: true
 ---
 <html>
 
-<span style="color:red"><b>Warning: Due to authorization issues, we are not able to provide all the audio files yet. </b> </span>
+<!-- <span style="color:red"><b>Warning: Due to authorization issues, we are not able to provide all the audio files yet. </b> </span> -->
 
 </html>
 # Perdrixfull version
@@ -31,18 +31,20 @@ toc_sticky: true
 
 <html>
 <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+  <source src="/audio/Perdrix.wav">
 </audio>
 </html>
 
 # Source separation results
 
-We tried our algorithm in different configurations to evaluate its efficiency. The algorithm takes a multichannel audio with all instrument playing as input, and produces 5 (1 per source) multichannel audios as if the instrument was playing alone in the room. Here we present the most intersting results for the different cases with all audios.
+We tried our algorithm in different configurations to evaluate its efficiency. The algorithm takes a multichannel audio with all instrument playing as input, and produces 5 (1 per source) multichannel audios as if the instrument was playing alone in the room. Here we present the most interesting results for the different cases with all audios.
 
 ## Technical precision
 The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 8 microphones for the recording:
 - 5 *spot* microphones close to each instrument (named after the instrument)
-- 3 coupled microphones to capture the global scene (named Left, Center, Right)
+- 3 linked microphones to capture the global scene (named Left, Center, Right)
+
+All the microphones are used for the separation.
 
 ## Separation on full mix without prior information
 
@@ -73,13 +75,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/no_effect_audios/no_separation/micro_Violin1.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+  <source src="/audio/no_effect_audios/separation/micro_Violin1/source_3_micro_Violin1_audio_length_12_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -94,13 +96,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/no_effect_audios/no_separation/micro_Violin2.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/no_effect_audios/separation/micro_Violin2/source_4_micro_Violin2_audio_length_12_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -115,13 +117,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/no_effect_audios/no_separation/micro_Flute.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/no_effect_audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -136,13 +138,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/no_effect_audios/no_separation/micro_Clarinet.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/no_effect_audios/separation/micro_Clarinet/source_1_micro_Clarinet_audio_length_12_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -157,81 +159,19 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/no_effect_audios/no_separation/micro_Cello.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/no_effect_audios/separation/micro_Cello/source_2_micro_Cello_audio_length_12_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
 
 </html>
 
-> Left
-
-<html>
-
-<div id="container">
-  <div id="left-column">
-    <!-- content for the left column goes here -->
-    <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-  <div id="right-column">
-    <!-- content for the right column goes here -->
-    <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-</div>
-
-</html>
-
-> Center
-
-<html>
-
-<div id="container">
-  <div id="left-column">
-    <!-- content for the left column goes here -->
-    <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-  <div id="right-column">
-    <!-- content for the right column goes here -->
-    <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-</div>
-
-</html>
-
-> Right
-
-<html>
-
-<div id="container">
-  <div id="left-column">
-    <!-- content for the left column goes here -->
-    <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-  <div id="right-column">
-    <!-- content for the right column goes here -->
-    <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-</div>
-
-</html>
 
 ## Separation on raw audio without prior information
 <html>
@@ -261,13 +201,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/sto_audios/no_separation/micro_Violin1.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+  <source src="/audio/sto_audios/separation/micro_Violin1/source_3_micro_Violin1_audio_length_12_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -282,13 +222,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/sto_audios/no_separation/micro_Violin2.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/sto_audios/separation/micro_Violin2/source_4_micro_Violin2_audio_length_12_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -303,13 +243,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/sto_audios/no_separation/micro_Flute.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/sto_audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -324,13 +264,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/sto_audios/no_separation/micro_Clarinet.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/sto_audios/separation/micro_Clarinet/source_1_micro_Clarinet_audio_length_12_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -345,81 +285,20 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/sto_audios/no_separation/micro_Cello.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/sto_audios/separation/micro_Cello/source_2_micro_Cello_audio_length_12_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
 
 </html>
 
-> Left
 
-<html>
-
-<div id="container">
-  <div id="left-column">
-    <!-- content for the left column goes here -->
-    <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-  <div id="right-column">
-    <!-- content for the right column goes here -->
-    <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-</div>
-
-</html>
-
-> Center
-
-<html>
-
-<div id="container">
-  <div id="left-column">
-    <!-- content for the left column goes here -->
-    <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-  <div id="right-column">
-    <!-- content for the right column goes here -->
-    <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-</div>
-
-</html>
-
-> Right
-
-<html>
-
-<div id="container">
-  <div id="left-column">
-    <!-- content for the left column goes here -->
-    <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-  <div id="right-column">
-    <!-- content for the right column goes here -->
-    <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-</div>
-
-</html>
 ## Separation on raw audio with prior information
 <html>
 
@@ -448,13 +327,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/prior_dictionnary/no_separation/micro_Violin1.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+  <source src="/audio/prior_dictionnary/separation/micro_Violin1/source_3_micro_Violin1_audio_length_10_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -469,13 +348,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/prior_dictionnary/no_separation/micro_Violin2.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/prior_dictionnary/separation/micro_Violin2/source_4_micro_Violin2_audio_length_10_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -490,13 +369,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/prior_dictionnary/no_separation/micro_Flute.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/prior_dictionnary/separation/micro_Flute/source_0_micro_Flute_audio_length_10_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -511,13 +390,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/prior_dictionnary/no_separation/micro_Clarinet.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/prior_dictionnary/separation/micro_Clarinet/source_1_micro_Clarinet_audio_length_10_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
@@ -532,76 +411,13 @@ The piece is written for a quintet: Violins, Flute, Clarinet and Cello. We used 
   <div id="left-column">
     <!-- content for the left column goes here -->
     <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/prior_dictionnary/no_separation/micro_Cello.wav">
     </audio>
   </div>
   <div id="right-column">
     <!-- content for the right column goes here -->
     <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-</div>
-
-</html>
-
-> Left
-
-<html>
-
-<div id="container">
-  <div id="left-column">
-    <!-- content for the left column goes here -->
-    <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-  <div id="right-column">
-    <!-- content for the right column goes here -->
-    <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-</div>
-
-</html>
-
-> Center
-
-<html>
-
-<div id="container">
-  <div id="left-column">
-    <!-- content for the left column goes here -->
-    <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-  <div id="right-column">
-    <!-- content for the right column goes here -->
-    <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-</div>
-
-</html>
-
-> Right
-
-<html>
-
-<div id="container">
-  <div id="left-column">
-    <!-- content for the left column goes here -->
-    <audio controls>
-      <source src="/audio/Violin1ScaleViolin1.wav">
-    </audio>
-  </div>
-  <div id="right-column">
-    <!-- content for the right column goes here -->
-    <audio controls>
-  <source src="/audio/Violin1ScaleViolin1.wav">
+      <source src="/audio/prior_dictionnary/separation/micro_Cello/source_2_micro_Cello_audio_length_10_n_basis_32_n_fft_4096.wav">
     </audio>
   </div>
 </div>
