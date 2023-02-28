@@ -11,7 +11,7 @@ excerpt: "Explanations of the Mushra test"
 ---
 
 # The MUSHRA test
-For evaluating our algorithmon real audio, we lack the ground truth wich is the isolated instrument. Therefore we need another mean of evaluation, and we built a subjective test. The test is available for now [here](https://webmushra.ircam.fr/).
+For evaluating our algorithmon real audio, we lack the ground truth wich is the isolated instrument. Therefore we need another mean of evaluation, and we built a subjective test. The test is available for now [here](https://sourceseparation2022-2023.github.io/webmushra/).
 
 <!-- Here include some description of Mushra and Webmushra -->
 
