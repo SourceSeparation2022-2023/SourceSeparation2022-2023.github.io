@@ -1,0 +1,136 @@
+testname: Source Separation Evaluation - ATIAM
+testId: P3S_ATIAM0
+bufferSize: 8192
+stopOnErrors: true
+showButtonPreviousPage: false
+remoteService: service/write.php
+
+# Overall quality - interference - artifact - distortion
+# anchor: bad separation?
+# fastNMF non-constr - fNMF cont H - fnmf cont W, ILRMA non-cont, fastNMF top (tout cont)
+
+pages:
+    - type: generic
+      id: first_page
+      name: Welcome
+      content: <b>Thank you for helping us by answering these questions!</b> This will take 10-15 minutes.<br><br><b>We wish to evaluate the quality of our extraction of an instrument from a multi-instrument recording (source separation). </b></br></br> This type of test is called MUSHRA, and it is a standard for subjective evaluation of audio quality.<br>You will hear some audio examples and be asked to rate them, we will guide you through it.<br><br> Take time to read the text at each time, it will describe the specificities of what we wish you to evaluate. </br></br> This is a perceptive test, there is no right or wrong answer. It is possible that some tracks sound the same to you, this is fine! <br><br> <b>Make sure you are in a quiet environment, and that you have headphones on.</b> </br></br> Please click on the button below to start.  
+
+    - type: consent
+      id: consent_page
+      name: Consent
+      mustConsent: true
+      content: You are participating in a listening test. For this, we want to store the answers you give to the following questions. Individual answers will not be shared.<br><br>Do you give consent for this?
+    
+    - type: volume
+      id: vol
+      name: Volume settings
+      content: Let's start by adjusting the volume of your headphones to a comfortable level. It should be loud enough for you to hear details in the song, but not cause any distress. Ideally you should not change your computer's volume after setting this until you have finished the evaluation.<br><br><b>Warning:</b> While listening to this setup audio you should not hear any glitches, pops or strange sounds. If this is the case you can try to resart you browser or open this page using the Firefox web browser. <br><br> When you are done, click on the button below to continue.
+      stimulus: configs/resources/audio/v2/no_effect/audios/no_separation/micro_Center.wav
+      defaultVolume: 0.5
+
+    - type: mushra
+      id: overall
+      name: Overall Quality - Flute
+      content: <b>You will be rating the extraction of the flute!</b><br><br>This page sets the standard that the rest of the test will follow. <b>You have a reference audio and a set of "conditioned" audios. The conditioned audios are the ones that you will be evaluating.</b><br><br> Please rate the conditioned audios in comparison to the reference audio, in this first page we ask you to <b>focus on the overall quality of the conditioned audios</b> and judge any and all detected differences between the reference and the condition. <br><br> Use the slider to rate the conditioned audios, 0 means that the conditioned audio is <b>much worse</b> than the reference audio and 100 means that the conditioned audio is <b>equal or better</b> than the reference audio. <br><br> <b>Please take your time to listen (and re-listen) and rate the audios.</b> <br><br> When you are done, click on the button below to continue, you will not be able to go back to the previous page.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/v2/ref_appoint_Flute_normalize.wav
+      createAnchor35: false
+      createAnchor70: false
+      showConditionNames: false
+      stimuli:
+          no_effect: configs/resources/audio/v2/no_effect/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          no_effect_center: configs/resources/audio/v2/no_effect/audios/separation/micro_Center/source_0_micro_Center_audio_length_12_n_basis_32_n_fft_4096.wav
+          # volume: configs/resources/audio/v2/volume/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          # eq: configs/resources/audio/v2/eq/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          # comp: configs/resources/audio/v2/comp/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          sto: configs/resources/audio/v2/sto/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          anchor: configs/resources/audio/v2/anchor_appoint_Flute_normalize.wav
+    
+    - type: generic
+      id: characteristics_introduction
+      name: Separation Characteristics - Flute
+      content: We will now show you the three last page, with a very similar evaluation dispositions, but we will ask you to <b>compare the quality while focusing on three characteristics of the audio.</b> These are the <b>interference</b>, the <b>distortion</b>, and the <b>artefacts</b>.<br><br> <ul><li><b>Interference:</b> the amount of sounds coming from instruments that are NOT the main instrument (flute).</li> <li><b>Distortion:</b> clipping, or modification of the instrument's sound ("fuzzy", "growling", or "gritty" sounds, noticeable absence of high or low frequencies, timbre modification).</li> <li><b>Artifacts:</b> unexpected/non-musical sounds that seem to have been generated artificially, or that don't belong to the flute's domain.</li> </ul> </br></br> Please click on the button below to continue. 
+
+    - type: mushra
+      id: interference
+      name: Interference - Flute
+      content: <b>Interference: the amount of sounds coming from instruments that are NOT the main instrument (flute).</b> <br><br> <b>Please rate the quality of the following audios focusing on the interference (bleeding) of secondary instruments regarding the main instrument.</b><br><br> The best score (100) should be given if no secondary instruments are heard, and the worst score (0) should be given if a secondary instrument is heard as if it was the main instrument. <br><br> When you are done, click on the button below to continue.
+      enableLooping: true 
+      reference: configs/resources/audio/v2/ref_appoint_Flute_normalize.wav
+      createAnchor35: false
+      createAnchor70: false
+      showConditionNames: false
+      stimuli:
+          no_effect: configs/resources/audio/v2/no_effect/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          no_effect_center: configs/resources/audio/v2/no_effect/audios/separation/micro_Center/source_0_micro_Center_audio_length_12_n_basis_32_n_fft_4096.wav
+          # volume: configs/resources/audio/v2/volume/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          # eq: configs/resources/audio/v2/eq/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          # comp: configs/resources/audio/v2/comp/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          sto: configs/resources/audio/v2/sto/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          anchor: configs/resources/audio/v2/anchor_appoint_Flute_normalize.wav               
+    - type: mushra
+      id: distortion
+      name: Distortion - Flute
+      content: <b>Distortion: clipping, or modification of the instrument's sound ("fuzzy", "growling", or "gritty" sounds, noticeable absence of high or low frequencies, timbre modification).</b><br><br> <b>Rate the quality of the audios regarding distortion (distortion of the expected musical signal).</b> <br><br> The best score (100) should be given if no distortion is heard, and the worst score (0) should be given if distortion totally modifies the flute's sound. <br><br> When you are done, click on the button below to continue.
+      enableLooping: true 
+      reference: configs/resources/audio/v2/ref_appoint_Flute_normalize.wav
+      createAnchor35: false
+      createAnchor70: false
+      showConditionNames: false
+      stimuli:
+          no_effect: configs/resources/audio/v2/no_effect/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          no_effect_center: configs/resources/audio/v2/no_effect/audios/separation/micro_Center/source_0_micro_Center_audio_length_12_n_basis_32_n_fft_4096.wav
+          # volume: configs/resources/audio/v2/volume/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          # eq: configs/resources/audio/v2/eq/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          # comp: configs/resources/audio/v2/comp/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          sto: configs/resources/audio/v2/sto/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          anchor: configs/resources/audio/v2/anchor_appoint_Flute_normalize.wav    
+    - type: mushra
+      id: artifacts
+      name: Artifacts - Flute
+      content: <b>Artifacts: unexpected/non-musical sounds that seem to have been generated artificially, or that don't belong to the flute's domain.</b><br><br> <b>Rate quality of the the audios regarding artifacts.</b><br><br> The best score (100) should be given if no artifacts are heard, and the worst score (0) should be given if artifacts are as present as the flute. <br><br> When you are done, click on the button below to continue.
+      enableLooping: true 
+      reference: configs/resources/audio/v2/ref_appoint_Flute_normalize.wav
+      createAnchor35: false
+      createAnchor70: false
+      showConditionNames: false
+      stimuli:
+          no_effect: configs/resources/audio/v2/no_effect/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          no_effect_center: configs/resources/audio/v2/no_effect/audios/separation/micro_Center/source_0_micro_Center_audio_length_12_n_basis_32_n_fft_4096.wav
+          # volume: configs/resources/audio/v2/volume/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          # eq: configs/resources/audio/v2/eq/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          # comp: configs/resources/audio/v2/comp/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          sto: configs/resources/audio/v2/sto/audios/separation/micro_Flute/source_0_micro_Flute_audio_length_12_n_basis_32_n_fft_4096.wav
+          anchor: configs/resources/audio/v2/anchor_appoint_Flute_normalize.wav         
+    - type: finish
+      name: Thank you
+      content: <b>Thank you for answering! Please fill out the questionnaire so that we can get to know you better.</b> <br><br> If you still have time, you can help us some more by performing this test on a different instrument. Dont forget to send your results on this page, but first open <a target="_blank" rel="noopener noreferrer" href="/?config=P3S_1.yaml">this link</a> in another tab. <br><br> <b> Dont forget to press the button below to submit your answers!!! </b>
+      showResults: false
+      writeResults: true
+      questionnaire:
+          - type: text
+            label: email
+            name: email
+          - type: number
+            label: Age
+            name: age
+            min: 0
+            max: 100
+            default: 30
+          - type: likert
+            name: gender
+            label: Gender
+            response:
+             - value: female
+               label: Female
+             - value: male
+               label: Male
+             - value: other
+               label: Other
+          - type: number
+            label: Musical Training Years
+            name: musical_training_years
+            min: 0
+            max: 100
+            default: 0
