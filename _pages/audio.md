@@ -18,7 +18,7 @@ toc_sticky: true
 <!-- <span style="color:red"><b>Warning: Due to authorization issues, we are not able to provide all the audio files yet. </b> </span> -->
 
 </html>
-# Perdrixfull version
+# Perdrix
 
 <!-- Here say something about mixing -->
 
